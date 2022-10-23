@@ -122,5 +122,9 @@ namespace grafo_ejemplo_2
         }
 
 
+        public void addEdge(int startNodo, int finalNodo, int weight)
+        {
+            this.adjacency[startNodo, finalNodo] = weight;
+        }
     }
 }
